@@ -1,0 +1,27 @@
+{
+  "name": "r-art",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GSG-G10/R-Art.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GSG-G10/R-Art/issues"
+  },
+  "homepage": "https://github.com/GSG-G10/R-Art#readme",
+  "dependencies": {
+    "env2": "^2.2.2",
+    "pg": "^8.7.1"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
+}
