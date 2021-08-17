@@ -1,5 +1,6 @@
-const connection = require('../connection');
+const connection = require('../config/connection');
 
+// eslint-disable-next-line no-unused-vars
 const postData = (artistName, paintingName, imageUrl) => {
   const sql = {
     text: `INSERT INTO Painting (artist_name,painting_name,image_url)

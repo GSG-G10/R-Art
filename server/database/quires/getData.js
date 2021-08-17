@@ -1,4 +1,4 @@
-const connection = require('../connection');
+const connection = require('../config/connection');
 
 const getData = () => {
   const sql = 'SElECT * FROM ARTIST INNER JOIN PAINTING ON (ARTIST.name=PAINTING.artist_name);';
