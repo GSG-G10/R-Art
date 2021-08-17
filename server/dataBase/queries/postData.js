@@ -11,3 +11,4 @@ const postData = (artistName, paintingName, imageUrl) => {
     .then((data) => data.rows)
     .catch((error) => error);
 };
+module.exports = postData;
