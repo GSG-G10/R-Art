@@ -1,8 +1,8 @@
 const { Pool } = require('pg');
 require('env2')('./config.env');
 // DATABASE_URL
-let dbUrl = '';
-const { NODE_ENV, DB_URL, DATABASE_URL } = process.env;
+// let dbUrl = '';
+const { DB_URL } = process.env;
 // switch (NODE_ENV) {
 //   case 'production':
 //     dbUrl = DATABASE_URL;

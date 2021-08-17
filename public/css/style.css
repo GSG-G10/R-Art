@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.title {
+  text-align: center;
+  padding: 15px;
+  font-family: montserrat, sans-serif;
+  color: rgb(206, 24, 94);
+  font-size: 35px;
+}
+.header {
+  height: 400px;
+  background-image: url("https://million-wallpapers.com/wallpapers/3/79/513096224871710.jpg");
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+.header-title {
+  text-align: center;
+  color: #000;
+  font-size: 28px;
+  font-family: bold;
+  padding-top: 5%;
+}
+.content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.posts {
+  width: 30%;
+}
+.btns {
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  padding: 10px;
+  text-align: center;
+  background-color: crimson;
+  color: #fff;
+  font-size: 15px;
+  border: none;
+  border-radius: 4px;
+  margin: 15px;
+}
+.artist_name {
+  font-size: 20px;
+  font-family: montserrat;
+  color: crimson;
+  font-weight: bold;
+}
+.img {
+  height: 300px;
+  width: 100%;
+  background-size: cover;
+}
+.info-artist {
+  line-height: 1.4;
+  font-size: 15px;
+  color: rgb(82, 82, 82);
+  margin-bottom: 10px;
+}
+
+@media (max-width: 700px) {
+  .title {
+    font-size: 22px;
+  }
+  .content {
+    flex-direction: column;
+  }
+  .posts {
+    width: 80%;
+  }
+  .header-title {
+    font-size: 18px;
+  }
+}
