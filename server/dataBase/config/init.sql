@@ -10,7 +10,5 @@ CREATE TABLE Painting(
     painting_name VARCHAR(200),
     image_url TEXT
 );
-INSERT INTO Artist (name) VALUES ('RAWAND'), ('reem');
-INSERT INTO Painting (artist_name,painting_name,image_url) VALUES ('reem','SUNSHINE','WWW');
 
 COMMIT;
