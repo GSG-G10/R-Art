@@ -1,5 +1,5 @@
 const express = require('express');
-const { getData, postData } = require('../database/queries');
+const { getData, postData } = require('../dataBase/queries/index.js');
 
 const router = express.Router();
 router.get('/show', (req, res) => {
