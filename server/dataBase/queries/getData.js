@@ -6,4 +6,5 @@ const getData = () => {
     .then((data) => data.rows)
     .catch((error) => error);
 };
+
 module.exports = getData;
