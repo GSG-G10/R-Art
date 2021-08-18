@@ -1,6 +1,4 @@
 const cardsContainer = document.querySelector('.content');
-const searchBtn = document.querySelector('#add-post');
-
 const createElement = (tag, className, parentNode) => {
   const tagName = document.createElement(tag);
   tagName.classList.add(className);
