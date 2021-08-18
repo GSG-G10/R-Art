@@ -28,11 +28,12 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  flex-wrap: wrap;
 }
 .posts {
   width: 30%;
 }
-.btns {
+.btn-parent {
   margin: 15px;
   display: flex;
   justify-content: center;
@@ -59,7 +60,7 @@
   width: 100%;
   background-size: cover;
 }
-.info-artist {
+.painting{
   line-height: 1.4;
   font-size: 15px;
   color: rgb(82, 82, 82);
