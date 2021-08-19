@@ -9,6 +9,5 @@ CREATE TABLE Painting(
     artist_name VARCHAR REFERENCES Artist(name),
     painting_name VARCHAR(200),
     image_url TEXT
-);
-
+)       
 COMMIT;
