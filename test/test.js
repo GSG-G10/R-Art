@@ -6,7 +6,6 @@ test('test main route /', (done) => {
     .get('/')
     .expect(200)
     .expect('Content-Type', /html/)
-    // eslint-disable-next-line no-unused-vars
     .end((err, res) => {
       if (err) return done(err);
       return done();
